@@ -1,2 +1,44 @@
-# miopiavisual-site
-Site retro-cyberpunk com estética de sistema operacional corrompido
+# 🌐 USUÁRIO ANÔNIMO | Site Retro-Cyberpunk
+
+Bem-vindo ao portal oficial de **USUÁRIO ANÔNIMO** — uma experiência web brutalista com estética de sistema operacional corrompido.
+
+## 🎨 Características
+
+- **Design Retro Windows 95** com elementos cyberpunk
+- **Animações Instáveis** — tarja de alerta piscante
+- **Paleta Neon** — azul elétrico, verde industrial, laranja vibrante
+- **Responsivo** — funciona em mobile e desktop
+- **Sem Dependências** — HTML/CSS puro
+
+## 🚀 Como usar
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/miopiavisual/miopiavisual-site.git
+   ```
+
+2. Abra `index.html` no seu navegador
+
+3. Customize conforme necessário!
+
+## 📁 Estrutura
+
+```
+miopiavisual-site/
+├── index.html      # Página principal
+└── README.md       # Este arquivo
+```
+
+## 🎯 Personalizações Rápidas
+
+- **Cores**: Edite as variáveis HEX no `<style>`
+- **Texto**: Modifique as divs dentro de `.janela-corpo`
+- **Links**: Atualize o `href` no botão terminal
+
+## 📱 Responsividade
+
+O site se adapta automaticamente para telas menores (600px e abaixo).
+
+---
+
+**STATUS**: ✅ OPERACIONAL // 🔴 INSTÁVEL // ⚡ ATIVO
