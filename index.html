@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[leiame_antes_de_usar.txt]</title>
+    <style>
+        /* ESTÉTICA SISTEMA OPERACIONAL CORROMPIDO */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        body {
+            background-color: #e67e22; /* Laranja base do post */
+            color: #000000;
+            padding: 20px;
+            overflow-x: hidden;
+            min-height: 100vh;
+        }
+
+        /* BARRA SUPERIOR CHINESA/JAPONESA RETRO */
+        .marquee-retro {
+            background-color: #000;
+            color: #ff0055;
+            padding: 8px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            text-align: center;
+            letter-spacing: 2px;
+            margin-bottom: 30px;
+            border: 2px solid #fff;
+        }
+
+        /* JANELA DO SISTEMA (ESTILO WINDOWS 95 BRUTALISTA) */
+        .janela-os {
+            max-width: 650px;
+            background-color: #3498db; /* Azul elétrico do post */
+            border: 3px solid #000000;
+            margin: 40px auto;
+            box-shadow: 15px 15px 0px #000000;
+        }
+
+        /* BARRA DE TÍTULO DA JANELA */
+        .janela-barra {
+            background-color: #000000;
+            color: #ffffff;
+            padding: 8px 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: bold;
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+        }
+
+        .janela-botoes span {
+            background: #fff;
+            color: #000;
+            padding: 2px 6px;
+            font-size: 0.75rem;
+            border: 1px solid #000;
+            margin-left: 3px;
+            font-weight: 900;
+        }
+
+        /* CONTEÚDO DA INTERFACE */
+        .janela-corpo {
+            padding: 25px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .titulo-usuario {
+            font-size: 2.8rem;
+            font-weight: 900;
+            line-height: 0.9;
+            color: #ffffff;
+            text-shadow: 3px 3px 0px #000;
+            text-transform: uppercase;
+        }
+
+        /* BLOCOS DE STATUS VERDES */
+        .status-box {
+            background-color: #2ecc71; /* Verde neon industrial */
+            border: 2px solid #000000;
+            padding: 12px;
+            font-size: 0.85rem;
+            font-weight: bold;
+            line-height: 1.4;
+            box-shadow: 5px 5px 0px #000;
+        }
+
+        .status-titulo {
+            text-decoration: underline;
+            display: block;
+            margin-bottom: 4px;
+            color: #000;
+        }
+
+        /* DIVISÃO DAS DIRETRIZES (GRID CRU) */
+        .grid-diretrizes {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+
+        .bloco-dados {
+            background-color: #ffffff;
+            border: 2px solid #000;
+            padding: 15px;
+            box-shadow: 5px 5px 0px #000;
+        }
+
+        .bloco-dados h3 {
+            font-size: 1rem;
+            background: #000;
+            color: #fff;
+            padding: 3px 8px;
+            margin-bottom: 10px;
+            display: inline-block;
+        }
+
+        .bloco-dados ul {
+            list-style-type: "• ";
+            padding-left: 15px;
+            font-size: 0.85rem;
+            line-height: 1.5;
+        }
+
+        /* TARJA DE ALERTA INFERIOR */
+        .tarja-instavel {
+            background-color: #f1c40f; /* Amarelo de alerta */
+            border: 2px solid #000;
+            padding: 10px;
+            font-size: 0.75rem;
+            font-weight: bold;
+            text-align: center;
+            letter-spacing: 1px;
+            animation: piscar 0.4s infinite alternate;
+        }
+
+        @keyframes piscar {
+            0% { background-color: #f1c40f; }
+            100% { background-color: #ff0055; color: #fff; }
+        }
+
+        /* LINK DO COLETIVO */
+        .terminal-link {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .btn-terminal {
+            background: #000000;
+            color: #2ecc71;
+            text-decoration: none;
+            padding: 15px 30px;
+            font-weight: bold;
+            border: 2px solid #2ecc71;
+            display: inline-block;
+            box-shadow: 8px 8px 0px #ff0055;
+        }
+
+        .btn-terminal:hover {
+            background: #2ecc71;
+            color: #000;
+            box-shadow: 0px 0px 0px transparent;
+            transform: translate(8px, 8px);
+        }
+
+        @media (max-width: 600px) {
+            .grid-diretrizes { grid-template-columns: 1fr; }
+            .titulo-usuario { font-size: 2rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="marquee-retro">わあ、ジン（小冊子）だ！すごくデジタルだね。</div>
+
+    <div class="janela-os">
+        <div class="janela-barra">
+            <span>USUÁRIO_ANÔNIMO.EXE</span>
+            <div class="janela-botoes">
+                <span>-</span>
+                <span>▢</span>
+                <span style="background: #ff0055; color: #fff;">X</span>
+            </div>
+        </div>
+        
+        <div class="janela-corpo">
+            <h2 class="titulo-usuario">USUÁRIO<br>ANÔNIMO</h2>
+
+            <div class="status-box">
+                <span class="status-titulo">IP/LOCALIZAÇÃO:</span> OCULTO // SUB-SOLO BH<br><br>
+                <span class="status-titulo">OBSESSÃO DO MOMENTO:</span> DADOS COMPROMETIDOS<br><br>
+                <span class="status-titulo">DOSAGEM DE CAOS:</span> NÍVEL MÁXIMO ATINGIDO
+            </div>
+
+            <div class="grid-diretrizes">
+                <div class="bloco-dados">
+                    <h3>CORE_DATA</h3>
+                    <ul>
+                        <li>Pixels Esmagados</li>
+                        <li>Frequência Estatística</li>
+                        <li>Tarja Vermelha</li>
+                        <li>Curtos-Circuitos</li>
+                    </ul>
+                </div>
+                
+                <div class="bloco-dados" style="background-color: #f39c12; color: #fff;">
+                    <h3 style="background: #fff; color: #000;">DIRETRIZES</h3>
+                    <ul style="color: #000; font-weight: bold;">
+                        <li>Corromper Padrões</li>
+                        <li>Hackear Tradições</li>
+                        <li>Ignorar Simetria</li>
+                        <li>Processar Falhas</li>
+                        <li>Espalhar o Caos</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="tarja-instavel">
+                STATUS: INSTÁVEL // ERRO_404_DETECTADO // OPERAÇÃO_UNDERGROUND
+            </div>
+        </div>
+    </div>
+
+    <div class="terminal-link">
+        <a href="https://instagram.com" target="_blank" class="btn-terminal">[ ACESSAR_DIRETÓRIO_PRINCIPAL // ↗ ]</a>
+    </div>
+
+</body>
+</html>
